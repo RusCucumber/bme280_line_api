@@ -83,7 +83,6 @@ int main(int argc, char *argv[])
         mosquitto_lib_cleanup();
         return EXIT_FAILURE;
     }
-    mosquitto_tls_insecure_set(mosq, 1);
 
     // 認証情報の読み込み
     result = mosquitto_username_pw_set(mosq, username, pw);
