@@ -32,5 +32,5 @@ void init(void)
     
     head = NULL;
     inner_head = NULL;
-    config_file = my_strdup("/home/ryuki/bme280/mqtt_test/config/config.ini");
+    config_file = my_strdup("config.ini");
 }
