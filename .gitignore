@@ -1,2 +1,5 @@
 /tmp/
-/API/
+/Pipfile
+/Pipfile.lock
+/.env
+/API_heroku/
