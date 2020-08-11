@@ -54,4 +54,4 @@ client.username_pw_set(username)
 # brokerへの接続
 client.connect(host, port)
 
-client.loop_forever()
+client.loop_forever(timeout = 600.0, max_packets = 1, retry_first_connection = False)
